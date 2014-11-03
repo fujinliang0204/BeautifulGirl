@@ -154,7 +154,6 @@ void TollgateScene::checkIsFight(float dt){
     float subPos = posB.x - posA.x;
     
     log("posA %f",posA.x);
-    log("posB %f",posB.x);
     
     float attackPos = m_monster->getContentSize().width/4+m_player->getContentSize().width/2;
     
